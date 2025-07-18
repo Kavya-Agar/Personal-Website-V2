@@ -1,14 +1,2 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
 @import 'tailwindcss' layer(utilities);
-@import 'tailwindcss/utilities' layer(utilities);
-
-@theme {
-  --default-font-family: 'Bely Display', 'sans-serif';
-}
-
-@layer utilities {
-  @font-face {
-    font-family: 'Bely Display';
-    src: url('frontend/src/assets/fonnts.com-Bely_Display_W00_Regular.ttf')
-      format('Bely Display');
-  }
-}

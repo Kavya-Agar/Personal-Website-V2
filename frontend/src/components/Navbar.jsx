@@ -1,5 +1,4 @@
-
-import logo from '../assets/half-avocado-fresh-ripe-icon-white-background-vector-ilustration_547674-3121.avif';
+import logo from '../assets/infinity.png';
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {
@@ -8,14 +7,14 @@ export default function Navbar() {
 
             <div class="flex items-center">
                 <Link to="/">
-                    <img src={logo} alt="Logo" class="h-12 w-12 rounded-full mr-4" />
+                    <img src={logo} alt="Logo" class="h-15 w-15 rounded-full mr-4" />
                 </Link>
             </div>
 
             <div class="flex items-center space-x-8 text-lg font-mono text-stone-300">
                 <Link to="/about" class="hover:text-amber-400 transition">About Me</Link>
-                <Link to="/projects" class="hover:text-amber-400 transition">Projects</Link>
-                <Link to="/skills" class="hover:text-amber-400 transition">Skills</Link>
+                <Link to="/projects" class="hover:text-amber-400 transition">Experience</Link>
+                <Link to="/skills" class="hover:text-amber-400 transition">Projects</Link>
 
                 <a
                     href="https://github.com/Kavya-Agar"
