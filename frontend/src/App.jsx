@@ -1,12 +1,28 @@
 import { useState } from 'react'
-import Navbar from "./components/Navbar.jsx"
+import './App.css'
+import Page from './Page.jsx'
+import { BrowserRouter, BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
-function App() {
-  return (
-    <>
-    <Navbar/>
-    </>
-  )
+function AppContent() {
+
+    return (
+        <>
+            <div className="bg-green-900 pt-16">
+                {/* <Routes>
+                    <Route path="/" element={<Page />} />
+                </Routes> */}
+                <Page />
+            </div>
+        </>
+    )
 }
 
-export default App
+function App() {
+    return (
+        <BrowserRouter>
+            <AppContent />
+        </BrowserRouter>
+    );
+}
+
+export default App;
