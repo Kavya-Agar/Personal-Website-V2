@@ -1,2 +1,2 @@
-@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
 @import 'tailwindcss' layer(utilities);
+@import 'tailwindcss/utilities' layer(utilities);

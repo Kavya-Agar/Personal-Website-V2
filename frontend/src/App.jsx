@@ -1,16 +1,12 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
 import Page from './Page.jsx'
 import { BrowserRouter, BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function AppContent() {
-
     return (
         <>
             <div className="bg-green-900 pt-16">
-                {/* <Routes>
-                    <Route path="/" element={<Page />} />
-                </Routes> */}
                 <Page />
             </div>
         </>

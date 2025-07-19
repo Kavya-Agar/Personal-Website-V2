@@ -1,5 +1,10 @@
-import logo from '../assets/infinity.png';
+import logo from '../assets/avocado.avif';
 import { Link } from 'react-router-dom';
+import { IoMdSwitch } from "react-icons/io";
+import Switch from '@mui/material/Switch';
+import * as React from 'react';
+
+const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
 export default function Navbar() {
     return (
@@ -7,20 +12,27 @@ export default function Navbar() {
 
             <div class="flex items-center">
                 <Link to="/">
-                    <img src={logo} alt="Logo" class="h-15 w-15 rounded-full mr-4" />
+                    <img src={logo} alt="Logo" class="h-12 w-12 rounded-full mr-4" />
                 </Link>
+                <div class="chewy-regular text-2xl text-stone-300">
+                    Kavya
+                </div>
             </div>
 
-            <div class="flex items-center space-x-8 text-lg font-mono text-stone-300">
-                <Link to="/about" class="hover:text-amber-400 transition">About Me</Link>
-                <Link to="/projects" class="hover:text-amber-400 transition">Experience</Link>
-                <Link to="/skills" class="hover:text-amber-400 transition">Projects</Link>
+            <div>
+                <Switch {...label} color="warning" />
+            </div>
+
+            <div class="flex items-center space-x-8 text-md lato-black text-stone-300">
+                <Link to="/about" class="hover:text-amber-400 hover:scale-120 transition">About Me</Link>
+                <Link to="/experience" class="hover:text-amber-400 hover:scale-120 transition">Experience</Link>
+                <Link to="/projects" class="hover:text-amber-400 hover:scale-120 transition">Projects</Link>
 
                 <a
                     href="https://github.com/Kavya-Agar"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="bg-amber-400 text-white px-5 py-2 rounded-full font-bold hover:bg-amber-800 transition"
+                    class="bg-amber-400 text-white px-5 py-2 rounded-full font-bold hover:bg-amber-800"
                 >
                     GITHUB
                 </a>
@@ -28,5 +40,3 @@ export default function Navbar() {
         </nav>
     );
 }
-
-
