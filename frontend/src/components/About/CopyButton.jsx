@@ -17,11 +17,11 @@ export const CopyButton = () => {
 
   return (
     <div className="inline-flex items-center gap-x-3">
-      <div className="text-sm font-medium text-amber-100">{email}</div>
+      <div className="lato-light text-amber-100">{email}</div>
       <button
         type="button"
         onClick={handleCopy}
-        className="p-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border-gray-200 bg-amber-400 hover:bg-amber-800"
+        className="p-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border-gray-200 bg-amber-400 hover:bg-amber-800r"
         aria-label="Copy email"
       >
           <FaRegCopy color="white" />
