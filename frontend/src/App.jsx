@@ -5,6 +5,7 @@ import Navbar from './components/Navbar.jsx'
 import About from './components/About.jsx'
 import Home from './components/Home.jsx'
 import Experience from './components/Experience.jsx'
+import Projects from './components/Projects.jsx'
 
 function AppContent() {
     return (
@@ -14,6 +15,7 @@ function AppContent() {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/experience" element={<Experience />} />
+                <Route path="/projects" element={<Projects />} />
             </Routes>
         </>
     )

@@ -37,14 +37,14 @@ export default function Navbar() {
             </div>
 
             {/* Nav links (desktop) */}
-            <div className="items-center space-x-8 text-md text-shadow-lg lato-black text-amber-100">
+            <div className="items-center space-x-8 text-md text-shadow-lg lato-bold text-amber-100">
                 {navLinks.map(link => (
                     <Link
                         key={link.to}
                         to={link.to}
                         className={`hover:text-amber-400 hover:scale-110 transition ${
                             location.pathname === link.to
-                                ? 'text-amber-400 font-bold scale-120'
+                                ? 'text-amber-400 lato-black scale-120 transition'
                                 : ''
                         }`}
                     >

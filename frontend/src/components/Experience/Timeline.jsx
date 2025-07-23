@@ -6,8 +6,9 @@ const experiences = [
         company: "Aspen Technology",
         date: "Jan 2024 - Apr 2024",
         description: [
-            "Developed scalable web applications using React and Node.js.",
-            "Collaborated with cross-functional teams to deliver features.",
+            "Performed a competitive analysis study on 5 multivariate data analysis tools to understand feature functions with customer requirements",
+            "Delivered actionable insights to optimize resource allocation across various industries through market research and analysis, with a potential 15% increase in total revenue",
+            "Collaborated with cross-functional stakeholders (PMs, DSs) to evaluate collaboration workflows and improve product strategy for olefin engineering software",
         ],
     },
     {
@@ -15,15 +16,15 @@ const experiences = [
         company: "JPMorgan Chase & Co.",
         date: "Jun 2023 - Jul 2023",
         description: [
-            "Built responsive UI components and improved site performance.",
-            "Implemented accessibility best practices.",
+            "Engineered an automated, scalable data pipeline architecture in Java, migrating from Apache Cassandra to AWS S3, implementing custom Parquet conversion algorithms and multithreading, improving data migration efficiency by 90%",
+            "Led daily stand-ups for a team of 8, ensuring project milestones were met on time. Presented the final solution to Executive Directors, earning recognition for its impact on data management",
         ],
     },
 ];
 
 export const Timeline = () => {
     return (
-        <div className="relative pl-10">
+        <div className="relative pl-10 lato-regular">
             <div className="absolute left-4 top-0 bottom-0 w-1 bg-slate-200 rounded" />
             {experiences.map((exp, idx) => (
                 <div key={idx} className="relative mb-10">

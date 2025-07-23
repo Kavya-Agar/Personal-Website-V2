@@ -1,3 +1,4 @@
+import { Skills } from "./About/Skills";
 import { Timeline } from "./Experience/Timeline";
 
 export default function Experience() {
