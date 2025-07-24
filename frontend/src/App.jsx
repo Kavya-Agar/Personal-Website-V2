@@ -6,11 +6,14 @@ import About from './components/About.jsx'
 import Home from './components/Home.jsx'
 import Experience from './components/Experience.jsx'
 import Projects from './components/Projects.jsx'
+import CustomCursor from './components/Cursor.jsx'
+import SplashCursor from './blocks/Animations/SplashCursor/SplashCursor.jsx'
 
 function AppContent() {
     return (
         <>
             <Navbar />
+            <SplashCursor />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />

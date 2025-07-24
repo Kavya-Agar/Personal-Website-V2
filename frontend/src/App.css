@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chewy&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import 'tailwindcss' layer(utilities);
 @import 'tailwindcss/utilities' layer(utilities);
+
 @custom-variant hover (&:hover);
+
+/* body {
+  cursor: none; 
+  overflow-x: hidden;
+} */
 
 .chewy-regular {
   font-family: "Chewy", cursive, system-ui;
@@ -89,3 +95,8 @@
   font-weight: bold;
   font-size: 20px;
 }
+
+/* .custom-navbar,
+.custom-navbar * {
+  cursor: none !important;
+} */
