@@ -1,6 +1,6 @@
 export const ProjectList = () => {
     return (
-        <div className="bg-green-900 min-h-screen w-full pt-20">
+        <div className="min-h-screen w-full pt-20">
             <div className="flex justify-center mt-8 mb-4">
                 <div className="w-full max-w-4xl px-4">
                     <div className="text-7xl text-center md:text-left text-amber-100 lato-black mb-4">
@@ -8,7 +8,35 @@ export const ProjectList = () => {
                     </div>
 
                     <div className="grid grid-cols-1 gap-6 lato-regular">
-                        <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full">
+                        <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full border border-emerald-800">
+                            <h3 className="text-lg text-amber-400 sm:text-xl mb-2">
+                                Stock Sentiment Dashboard
+                            </h3>
+                            <p className='text-amber-100 mb-2 text-sm sm:text-base'>
+                                A simple fish-themed finance tracker that allows users to track their income and expenses. The app provides a simple UI
+                                for users to manage their finances and get insights into their spendings to see where they can save money.
+                            </p>
+                            <h3 className='text-amber-100 text-sm sm:text-base'>
+                                Technologies Used:
+                                <div className="space-x-3 mt-1">
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Python</span>
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">AWS </span>
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">HuggingFace</span>
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Flask</span>
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Docker</span>
+                                </div>
+                            </h3>
+                            
+                            <a href="https://github.com/Kavya-Agar/Stock-Sentiment-Dashboard"
+                                className="mt-6 text-blue-500"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View Project
+                            </a>
+                        </div>
+
+                        <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full border border-emerald-800">
                             <h3 className="text-lg text-amber-400 sm:text-xl mb-2">
                                 FIN-ance
                             </h3>
@@ -19,13 +47,13 @@ export const ProjectList = () => {
                             <h3 className='text-amber-100 text-sm sm:text-base'>
                                 Technologies Used:
                                 <div className="space-x-3 mt-1">
-                                    <span className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">React</span>
-                                    <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Django</span>
-                                    <span className="bg-orange-100 text-orange-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Tensorflow</span>
-                                    <span className="bg-purple-100 text-purple-400 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Scikit-Learn</span>
-                                    <span className="bg-indigo-100 text-indigo-600 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">PostgreSQL</span>
-                                    <span className="bg-cyan-100 text-cyan-500 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Swift</span>
-                                    <span className="bg-green-100 text-green-500 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Docker</span>
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">React</span>
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Django</span>
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Tensorflow</span>
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Scikit-Learn</span>
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">PostgreSQL</span>
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Swift</span>
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Docker</span>
                                 </div>
                             </h3>
                             
@@ -38,7 +66,7 @@ export const ProjectList = () => {
                             </a>
                         </div>
 
-                        <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full">
+                        <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full border border-emerald-800">
                             <h3 className="text-lg text-amber-400 sm:text-xl mb-2">
                                 Personal Website V2
                             </h3>
@@ -50,8 +78,8 @@ export const ProjectList = () => {
                             <h3 className='text-amber-100 text-sm sm:text-base'>
                                 Technologies Used:
                                 <div className="space-x-3 mt-1">
-                                    <span className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">React</span>
-                                    <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Django</span>
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">React</span>
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Django</span>
                                 </div>
                             </h3>
                             
@@ -60,7 +88,7 @@ export const ProjectList = () => {
                             </div>
                         </div>
 
-                        <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full">
+                        <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full border border-emerald-800">
                             <h3 className="text-lg text-amber-400 sm:text-xl mb-2">
                                 Heart R8
                             </h3>
@@ -71,8 +99,8 @@ export const ProjectList = () => {
                             <h3 className='text-amber-100 text-sm sm:text-base'>
                                 Technologies Used:
                                 <div className="space-x-3 mt-1">
-                                    <span className="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Arduino</span>
-                                    <span className="bg-stone-100 text-stone-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">C++</span> 
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Arduino</span>
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">C++</span>
                                 </div>
                             </h3>
                             
@@ -85,7 +113,7 @@ export const ProjectList = () => {
                             </a>
                         </div>
 
-                        <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full">
+                        <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full border border-emerald-800">
                             <h3 className="text-lg text-amber-400 sm:text-xl mb-2">
                                 Personal Website V1
                             </h3>
@@ -96,8 +124,8 @@ export const ProjectList = () => {
                             <h3 className='text-amber-100 text-sm sm:text-base'>
                                 Technologies Used:
                                 <div className="space-x-3 mt-1">
-                                    <span className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">React</span>
-                                    <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Django</span>
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">React</span>
+                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Django</span>
                                 </div>
                             </h3>
                             

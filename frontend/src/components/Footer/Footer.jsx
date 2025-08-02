@@ -6,7 +6,7 @@ export const FooterBar = () => {
   return (
     <footer className="w-full text-amber-100 py-4 flex flex-col bg-transparent backdrop-filter backdrop-blur-2xl items-center justify-center">
       <div className="text-sm mt-1 opacity-70 lato-black">
-        © {new Date().getFullYear()} Kavya Agar
+        © {new Date().getFullYear()} Kavya Agar. All rights reserved.
       </div>
       <div className="flex space-x-4 mt-2">
         <a

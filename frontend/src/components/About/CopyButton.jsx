@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaRegCopy } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa";
 
 export const CopyButton = () => {
   const [copied, setCopied] = useState(false);
@@ -21,10 +22,10 @@ export const CopyButton = () => {
       <button
         type="button"
         onClick={handleCopy}
-        className="p-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border-gray-200 bg-amber-400 hover:bg-amber-800r"
+        className="p-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border-gray-200 bg-amber-400 hover:bg-amber-800"
         aria-label="Copy email"
       >
-          <FaRegCopy color="white" />
+        {copied ? <FaCheck color="white" /> : <FaRegCopy color="white" />}
       </button>
     </div>
   );

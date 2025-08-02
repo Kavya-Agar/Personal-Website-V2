@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { BrowserRouter, BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar.jsx'
 import About from './components/About.jsx'
 import Home from './components/Home.jsx'
@@ -8,14 +8,22 @@ import Experience from './components/Experience.jsx'
 import Projects from './components/Projects.jsx'
 import CustomCursor from './components/Cursor.jsx'
 import SplashCursor from './blocks/Animations/SplashCursor/SplashCursor.jsx'
-import FaultyTerminal from './blocks/Backgrounds/FaultyTerminal/FaultyTerminal.jsx'
 import Trial from './components/Trial/Trial.jsx'
 import Footer from './components/Footer.jsx'
+import DarkVeil from './blocks/Backgrounds/DarkVeil/DarkVeil.jsx'
 
 function AppContent() {
     return (
-        <>
-            <div className="min-h-screen flex flex-col bg-green-900">
+        <div className="min-h-screen">
+            <div className="fixed inset-0 -z-10">
+                <DarkVeil
+                    speed={2}
+                    hueShift={60}
+                    warpAmount={5}
+                />
+            </div>
+            
+            <div className="flex flex-col min-h-screen">
                 <Navbar />
                 {/* <SplashCursor /> */}
                 <Routes>
@@ -27,7 +35,7 @@ function AppContent() {
                 </Routes>
                 <Footer />
             </div>
-        </>
+        </div>
     )
 }
 

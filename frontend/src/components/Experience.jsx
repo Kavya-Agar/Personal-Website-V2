@@ -3,7 +3,7 @@ import { Timeline } from "./Experience/Timeline";
 
 export default function Experience() {
     return (
-        <div className="bg-green-900 min-h-screen w-full pt-20">
+        <div className="min-h-screen w-full pt-20">
             <div className="flex justify-center mt-8 mb-4">
                 <div className="w-full max-w-4xl px-4">
                     <div className="text-7xl text-center md:text-left text-amber-100 lato-black">

@@ -8,7 +8,7 @@ import { CopyButton } from "./About/CopyButton.jsx";
 
 export default function About() {
     return (
-        <div className="bg-green-900 min-h-screen w-full">
+        <div className="min-h-screen w-full">
             <div className="pt-20">
 
                 <div className="flex justify-center mt-8 mb-4">
