@@ -13,17 +13,17 @@ export const ProjectList = () => {
                                 Stock Sentiment Dashboard
                             </h3>
                             <p className='text-amber-100 mb-2 text-sm sm:text-base'>
-                                A simple fish-themed finance tracker that allows users to track their income and expenses. The app provides a simple UI
-                                for users to manage their finances and get insights into their spendings to see where they can save money.
+                                Developed and deployed a real-time sentiment analysis system using HuggingFace Transformers and AWS SageMaker, enabling scalable inference from financial news with live updates to a React dashboard.
+                                Automated an end-to-end ML pipeline using Terraform, Docker, and SageMaker, integrating model serving, data ingestion from Reddit, and sentiment visualization via Flask and DynamoDB.
                             </p>
                             <h3 className='text-amber-100 text-sm sm:text-base'>
                                 Technologies Used:
                                 <div className="space-x-3 mt-1">
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Python</span>
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">AWS </span>
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">HuggingFace</span>
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Flask</span>
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Docker</span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">Python</span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">AWS </span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">HuggingFace</span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">Flask</span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">Docker</span>
                                 </div>
                             </h3>
                             
@@ -47,13 +47,13 @@ export const ProjectList = () => {
                             <h3 className='text-amber-100 text-sm sm:text-base'>
                                 Technologies Used:
                                 <div className="space-x-3 mt-1">
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">React</span>
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Django</span>
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Tensorflow</span>
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Scikit-Learn</span>
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">PostgreSQL</span>
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Swift</span>
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Docker</span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">React</span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">Django</span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">Tensorflow</span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">Scikit-learn</span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">PostgreSQL</span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">Swift</span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">Docker</span>
                                 </div>
                             </h3>
                             
@@ -78,8 +78,8 @@ export const ProjectList = () => {
                             <h3 className='text-amber-100 text-sm sm:text-base'>
                                 Technologies Used:
                                 <div className="space-x-3 mt-1">
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">React</span>
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Django</span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">React</span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">Django</span>
                                 </div>
                             </h3>
                             
@@ -99,8 +99,8 @@ export const ProjectList = () => {
                             <h3 className='text-amber-100 text-sm sm:text-base'>
                                 Technologies Used:
                                 <div className="space-x-3 mt-1">
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Arduino</span>
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">C++</span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">Arduino</span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">C++</span>
                                 </div>
                             </h3>
                             
@@ -124,8 +124,8 @@ export const ProjectList = () => {
                             <h3 className='text-amber-100 text-sm sm:text-base'>
                                 Technologies Used:
                                 <div className="space-x-3 mt-1">
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">React</span>
-                                    <span className="bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm">Django</span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">React</span>
+                                    <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">Django</span>
                                 </div>
                             </h3>
                             
