@@ -27,7 +27,7 @@ export default function Navbar() {
       blur={11}
       mixBlendMode="screen"
       borderRadius={50}
-      className="fixed top-4 left-1/2 -translate-x-1/2 z-50 border border-cyan-200/50"
+      className="fixed top-4 left-1/2 -translate-x-1/2 z-50 border border-emerald-800"
     >
       <nav className="flex items-center justify-between px-8 py-4 w-full">
         <div className="flex items-center">
