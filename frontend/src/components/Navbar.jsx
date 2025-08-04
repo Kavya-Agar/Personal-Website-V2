@@ -2,7 +2,9 @@ import logo from "../assets/avocado.avif";
 import { Link, useLocation } from "react-router-dom";
 import { Switch } from "@headlessui/react";
 import { useState } from "react";
+import { FiGithub } from "react-icons/fi";
 import GlassSurface from "../blocks/Components/GlassSurface/GlassSurface";
+import Orb from "../blocks/Backgrounds/Orb/Orb";
 
 export default function Navbar() {
   const [enabled, setEnabled] = useState(false);
@@ -12,7 +14,6 @@ export default function Navbar() {
     { to: "/about", label: "About Me" },
     { to: "/experience", label: "Experience" },
     { to: "/projects", label: "Projects" },
-    { to: "/trial", label: "Trial" },
   ];
   return (
     <GlassSurface
@@ -53,7 +54,7 @@ export default function Navbar() {
           </Switch>
         </div>
 
-        <div className="items-center space-x-8 text-md text-shadow-lg lato-bold text-amber-100">
+        <div className="flex items-center space-x-8 text-md text-shadow-lg lato-bold text-amber-100">
           {navLinks.map((link) => (
             <Link
               key={link.to}
@@ -67,14 +68,13 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-
           <a
             href="https://github.com/Kavya-Agar"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-amber-400 text-white px-5 py-2 text-shadow-lg rounded-full font-bold hover:bg-amber-800"
+            className="hover:text-amber-400 hover:scale-110 transition lato-bold text-amber-100 text-4xl"
           >
-            GITHUB
+            <FiGithub />
           </a>
         </div>
       </nav>
