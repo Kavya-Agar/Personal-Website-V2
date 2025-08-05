@@ -22,7 +22,12 @@ const experiences = [
     },
 ];
 
-export const Timeline = () => {
+export const Timeline = ({ enabled }) => {
+    const titleClass = `m-0 text-lg font-bold ${enabled ? "text-amber-400" : "text-amber-100"}`;
+    const companyClass = `text-base ${enabled ? "text-amber-400" : "text-amber-100"}`;
+    const dateClass = `text-sm mb-1 ${enabled ? "text-amber-400" : "text-amber-100"}`;
+    const listClass = `m-0 list-disc pl-5 ${enabled ? "text-amber-400" : "text-amber-100"}`;
+
     return (
         <div className="relative pl-10 lato-regular">
             <div className="absolute left-4 top-0 bottom-0 w-1 bg-slate-200 rounded" />
@@ -30,10 +35,10 @@ export const Timeline = () => {
                 <div key={idx} className="relative mb-10">
                     <div className="absolute -left-2 top-2 w-4 h-4 bg-conic/decreasing from-violet-700 via-lime-400 to-violet-700 transition rounded-full border-2 border-white shadow-rose-950" />
                     <div className="ml-8">
-                        <h3 className="m-0 text-lg text-amber-400 font-bold">{exp.title}</h3>
-                        <span className="text-amber-100 text-base">{exp.company}</span>
-                        <div className="text-amber-100 text-sm mb-1">{exp.date}</div>
-                        <ul className="m-0 text-amber-100 list-disc pl-5">
+                        <h3 className={titleClass}>{exp.title}</h3>
+                        <span className={companyClass}>{exp.company}</span>
+                        <div className={dateClass}>{exp.date}</div>
+                        <ul className={listClass}>
                             {exp.description.map((item, itemIdx) => (
                                 <li key={itemIdx}>{item}</li>
                             ))}

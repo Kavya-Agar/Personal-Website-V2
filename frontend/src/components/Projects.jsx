@@ -1,10 +1,8 @@
 import React from "react";
 import { ProjectList } from "./Projects/Project List";
 
-export default function Projects() {
+export default function Projects({enabled}) {
     return (
-        <>
-            <ProjectList />
-        </>
+        <ProjectList enabled={enabled} />
     );
 }
