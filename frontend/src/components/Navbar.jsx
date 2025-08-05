@@ -1,13 +1,11 @@
-import logo from "../assets/avocado.avif";
+import logo from "../assets/k_logo.jpg";
 import { Link, useLocation } from "react-router-dom";
 import { Switch } from "@headlessui/react";
 import { useState } from "react";
 import { FiGithub } from "react-icons/fi";
 import GlassSurface from "../blocks/Components/GlassSurface/GlassSurface";
-import Orb from "../blocks/Backgrounds/Orb/Orb";
 
-export default function Navbar() {
-  const [enabled, setEnabled] = useState(false);
+export default function Navbar({ enabled, setEnabled }) {
   const location = useLocation();
 
   const navLinks = [

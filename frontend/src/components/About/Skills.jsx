@@ -95,6 +95,7 @@ export const Skills = () => {
           <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-md text-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">Full Stack Development</span>
           <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-md text-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">Data Engineering Pipelines</span>
           <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-md text-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">UI/UX Design</span>
+          <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-md text-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">Graphic Design</span>
           <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-md text-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">Strategic Planning</span>
         </div>
       </div>
