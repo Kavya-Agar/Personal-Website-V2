@@ -20,6 +20,7 @@ export const Skills = ({ enabled }) => {
           <span className={badgeClass}>Swift</span>
           <span className={badgeClass}>SQL</span>
           <span className={badgeClass}>R</span>
+          <span className={badgeClass}>TailwindCSS</span>
         </div>
       </div>
 
@@ -31,6 +32,7 @@ export const Skills = ({ enabled }) => {
           <span className={badgeClass}>LLMs &amp; Fine-tuning</span>
           <span className={badgeClass}>PyTorch</span>
           <span className={badgeClass}>Natural Language Processing</span>
+          <span className={badgeClass}>LangChain</span>
           <span className={badgeClass}>Computer Vision</span>
           <span className={badgeClass}>TensorFlow</span>
           <span className={badgeClass}>SageMaker</span>
@@ -72,6 +74,7 @@ export const Skills = ({ enabled }) => {
         <h4 className={`text-lg font-semibold ${textColor} mb-3`}>Databases</h4>
         <div className="flex flex-wrap gap-2">
           <span className={badgeClass}>PostgreSQL</span>
+          <span className={badgeClass}>MongoDB</span>
           <span className={badgeClass}>MySQL</span>
           <span className={badgeClass}>Apache Cassandra</span>
           <span className={badgeClass}>DynamoDB</span>
