@@ -1,16 +1,15 @@
-export const Skills = ({ enabled }) => {
+export const Skills = () => {
   const boxStyle = {
     transition: 'opacity 0.5s, transform 0.5s',
     opacity: 1,
     transform: 'translateY(0px)',
   };
-  const textColor = enabled ? "text-amber-400" : "text-amber-100";
-  const badgeClass = `px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 ${textColor} rounded-md text-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block`;
+  const badgeClass = "px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-md text-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block";
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 gap-x-12">
       <div style={boxStyle}>
-        <h4 className={`text-lg font-semibold ${textColor} mb-3`}>Programming Languages</h4>
+        <h4 className={`text-lg font-semibold text-amber-100 mb-3`}>Programming Languages</h4>
         <div className="flex flex-wrap gap-2">
           <span className={badgeClass}>Python</span>
           <span className={badgeClass}>JavaScript</span>
@@ -25,7 +24,7 @@ export const Skills = ({ enabled }) => {
       </div>
 
       <div style={boxStyle}>
-        <h4 className={`text-lg font-semibold ${textColor} mb-3`}>Data Science &amp; Machine Learning</h4>
+        <h4 className={`text-lg font-semibold text-amber-100 mb-3`}>Data Science &amp; Machine Learning</h4>
         <div className="flex flex-wrap gap-2">
           <span className={badgeClass}>Machine Learning</span>
           <span className={badgeClass}>Deep Learning</span>
@@ -45,7 +44,7 @@ export const Skills = ({ enabled }) => {
       </div>
 
       <div style={boxStyle}>
-        <h4 className={`text-lg font-semibold ${textColor} mb-3`}>Frameworks &amp; Libraries</h4>
+        <h4 className={`text-lg font-semibold text-amber-100 mb-3`}>Frameworks &amp; Libraries</h4>
         <div className="flex flex-wrap gap-2">
           <span className={badgeClass}>React.js</span>
           <span className={badgeClass}>Django</span>
@@ -57,7 +56,7 @@ export const Skills = ({ enabled }) => {
       </div>
 
       <div style={boxStyle}>
-        <h4 className={`text-lg font-semibold ${textColor} mb-3`}>Cloud &amp; DevOps</h4>
+        <h4 className={`text-lg font-semibold text-amber-100 mb-3`}>Cloud &amp; DevOps</h4>
         <div className="flex flex-wrap gap-2">
           <span className={badgeClass}>AWS</span>
           <span className={badgeClass}>Docker</span>
@@ -71,7 +70,7 @@ export const Skills = ({ enabled }) => {
       </div>
 
       <div style={boxStyle}>
-        <h4 className={`text-lg font-semibold ${textColor} mb-3`}>Databases</h4>
+        <h4 className={`text-lg font-semibold text-amber-100 mb-3`}>Databases</h4>
         <div className="flex flex-wrap gap-2">
           <span className={badgeClass}>PostgreSQL</span>
           <span className={badgeClass}>MongoDB</span>
@@ -83,7 +82,7 @@ export const Skills = ({ enabled }) => {
       </div>
 
       <div style={boxStyle}>
-        <h4 className={`text-lg font-semibold ${textColor} mb-3`}>Tools &amp; Methodologies</h4>
+        <h4 className={`text-lg font-semibold text-amber-100 mb-3`}>Tools &amp; Methodologies</h4>
         <div className="flex flex-wrap gap-2">
           <span className={badgeClass}>Agile/Scrum</span>
           <span className={badgeClass}>RESTful APIs</span>
@@ -95,7 +94,7 @@ export const Skills = ({ enabled }) => {
       </div>
 
       <div style={boxStyle}>
-        <h4 className={`text-lg font-semibold ${textColor} mb-3`}>Other</h4>
+        <h4 className={`text-lg font-semibold text-amber-100 mb-3`}>Other</h4>
         <div className="flex flex-wrap gap-2">
           <span className={badgeClass}>Full Stack Development</span>
           <span className={badgeClass}>Data Engineering Pipelines</span>
