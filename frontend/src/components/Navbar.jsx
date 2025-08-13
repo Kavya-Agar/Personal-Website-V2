@@ -47,16 +47,6 @@ export default function Navbar({ enabled, setEnabled }) {
           </div>
         </div>
 
-        <div className="mx-4">
-          <Switch
-            checked={enabled}
-            onChange={setEnabled}
-            className="group inline-flex h-6 w-11 items-center rounded-full bg-amber-100 transition data-checked:bg-amber-400"
-          >
-            <span className="size-4 translate-x-1 rounded-full bg-conic/decreasing from-violet-700 via-lime-300 to-violet-700 transition group-data-checked:translate-x-6" />
-          </Switch>
-        </div>
-
         <div
           className={`flex items-center space-x-8 text-md text-shadow-lg lato-bold ${
             enabled ? "text-amber-400" : "text-amber-100"
