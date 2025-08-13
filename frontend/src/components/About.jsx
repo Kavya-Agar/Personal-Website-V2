@@ -5,6 +5,8 @@ import { Skills } from "./About/Skills.jsx";
 import { Linkedin } from "./About/Linkedin.jsx";
 import { Resume } from "./About/Resume.jsx";
 import { Email } from "./About/Email.jsx";
+import { Spotify } from "./About/Spotify.jsx";
+import { Instagram } from "./About/instagram.jsx";
 
 export default function About({ enabled }) {
   return (
@@ -20,7 +22,7 @@ export default function About({ enabled }) {
       <div className="w-full flex items-center justify-center px-4">
         <div
           className={[
-            "flex flex-col md:flex-row items-start justify-center gap-12 w-full max-w-4xl rounded-3xl shadow-2xl p-8 md:p-12",
+            "flex flex-col md:flex-row items-start justify-center gap-12 w-full max-w-4xl rounded-3xl shadow-2xl p-8 md:p-12 border",
             enabled
               ? "bg-rose-950 border-rose-800"
               : "bg-emerald-950 border-emerald-800",
@@ -32,9 +34,10 @@ export default function About({ enabled }) {
               <div className={`${enabled ? "text-amber-400" : "text-amber-100"} lato-black text-md mb-2`}>
                 Contacts
               </div>
-              <Email enabled={enabled} />
-              <Linkedin enabled={enabled} />
-              <Resume enabled={enabled} />
+              <Email />
+              <Linkedin />
+              <Resume />
+              <Instagram />
             </div>
           </div>
           <div className="flex-1 flex flex-col">
@@ -53,6 +56,13 @@ export default function About({ enabled }) {
           ].join(" ")}
         >
           <Skills enabled={enabled} />
+        </div>
+      </div>
+      
+      <div className="w-full flex items-center justify-center px-4 mt-8">
+        <div
+          className="flex flex-col md:flex-row items-start justify-center gap-12 w-full max-w-7xl rounded-3xl shadow-2xl p-8 md:p-12 border bg-emerald-950 border-emerald-800">
+          <Spotify />
         </div>
       </div>
     </div>
