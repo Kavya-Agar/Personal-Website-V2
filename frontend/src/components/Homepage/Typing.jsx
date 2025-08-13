@@ -15,17 +15,15 @@ const typeWriter = [
   "Storyteller",
 ];
 
-export default function Typing({ enabled }) {
+export default function Typing() {
   return (
-    <>
-      <div className={`flex items-center justify-center text-7xl lato-black ${enabled ? "text-amber-400" : "text-amber-100"}`}>
+    <div className="text-center px-4">
+      <h1 className="lato-black text-5xl sm:text-6xl md:text-7xl text-amber-100 leading-tight whitespace-nowrap">
         Hi, I'm Kavya!
-      </div>
-      <div className={`flex items-center justify-center text-2xl lato-black ${enabled ? "text-amber-400" : "text-amber-100"}`}>
-        <p>
-          I'm a <TypeWriter data={typeWriter} />
-        </p>
-      </div>
-    </>
+      </h1>
+      <p className="mt-3 text-xl sm:text-2xl lato-black text-amber-100">
+        I'm a <TypeWriter data={typeWriter} />
+      </p>
+    </div>
   );
 }

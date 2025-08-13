@@ -8,6 +8,7 @@ import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import Footer from "./components/Footer.jsx";
 import DarkVeil from "./blocks/Backgrounds/DarkVeil/DarkVeil.jsx";
+import CustomCursor from "./components/Cursor.jsx";
 
 function AppContent() {
 
@@ -16,7 +17,7 @@ function AppContent() {
       <div className="fixed inset-0 -z-10">
         <DarkVeil speed={2} hueShift={60} warpAmount={5} />
       </div>
-
+      {/* <CustomCursor  /> */}
         <div className="flex flex-col min-h-screen">
         <Navbar  />
         <Routes>

@@ -2,10 +2,10 @@ import Typing from "./Homepage/Typing.jsx";
 
 export default function Home() {
   return (
-    <div className="relative w-full h-screen overflow-hidden pt-12">
-      <div className="absolute inset-0 flex flex-col items-center justify-center z-10 pointer-events-none">
+    <main className="relative w-full min-h-[100svh] md:min-h-screen overflow-hidden">
+      <div className="grid place-items-center min-h-[100svh] md:min-h-screen">
         <Typing />
       </div>
-    </div>
+    </main>
   );
 }
