@@ -10,6 +10,7 @@ const experiences = [
       "Delivered actionable insights to optimize resource allocation across various industries through market research and analysis, with a potential 15% increase in total revenue",
       "Collaborated with cross-functional stakeholders (PMs, DSs) to evaluate collaboration workflows and improve product strategy for olefin engineering software",
     ],
+    technologies: ["Excel", "PowerPoint", "Market Research", "Stakeholder Management"],
   },
   {
     title: "Software Engineer Intern",
@@ -19,10 +20,18 @@ const experiences = [
       "Engineered an automated, scalable data pipeline architecture in Java, migrating from Apache Cassandra to AWS S3, implementing custom Parquet conversion algorithms and multithreading, improving data migration efficiency by 90%",
       "Led daily stand-ups for a team of 8, ensuring project milestones were met on time. Presented the final solution to Executive Directors, earning recognition for its impact on data management",
     ],
+    technologies: ["Java", "AWS S3", "Apache Cassandra", "Parquet", "Multithreading"],
   },
 ];
 
-export const Timeline = ({ enabled }) => {
+const boxStyle = {
+  transition: 'opacity 0.5s, transform 0.5s',
+  opacity: 1,
+  transform: 'translateY(0px)',
+};
+const badgeClass = "px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-md text-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block";
+
+export const Timeline = () => {
   const titleClass = "m-0 text-lg font-bold text-amber-400";
   const companyClass = "text-base text-amber-100";
   const dateClass = "text-sm mb-1 text-amber-100";
@@ -43,6 +52,15 @@ export const Timeline = ({ enabled }) => {
                 <li key={itemIdx}>{item}</li>
               ))}
             </ul>
+            {exp.technologies && (
+              <div className="flex flex-wrap gap-2 mt-3" style={boxStyle}>
+                {exp.technologies.map((tech, techIdx) => (
+                  <span key={techIdx} className={badgeClass}>
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       ))}
