@@ -22,19 +22,19 @@ function AppContent() {
         <Navbar  />
         <Routes>
           <Route
-            path="#/"
+            path="/"
             element={<Home />}
           />
           <Route
-            path="#/about"
+            path="/about"
             element={<About />}
           />
           <Route
-            path="#/experience"
+            path="/experience"
             element={<Experience />}
           />
           <Route
-            path="#/projects"
+            path="/projects"
             element={<Projects />}
           />
         </Routes>
