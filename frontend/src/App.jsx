@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import About from "./components/About.jsx";
 import Home from "./components/Home.jsx";
@@ -22,19 +22,19 @@ function AppContent() {
         <Navbar  />
         <Routes>
           <Route
-            path="/"
+            path="#/"
             element={<Home />}
           />
           <Route
-            path="/about"
+            path="#/about"
             element={<About />}
           />
           <Route
-            path="/experience"
+            path="#/experience"
             element={<Experience />}
           />
           <Route
-            path="/projects"
+            path="#/projects"
             element={<Projects />}
           />
         </Routes>
@@ -46,9 +46,9 @@ function AppContent() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AppContent />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
