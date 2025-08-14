@@ -17,7 +17,9 @@ function AppContent() {
       <div className="fixed inset-0 -z-10">
         <DarkVeil speed={2} hueShift={60} warpAmount={5} />
       </div>
-      {/* <CustomCursor  /> */}
+      {/* <div className="hidden md:block">
+        <CustomCursor />
+      </div> */}
         <div className="flex flex-col min-h-screen">
         <Navbar  />
         <Routes>

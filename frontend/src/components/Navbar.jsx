@@ -85,7 +85,7 @@ export default function Navbar() {
       )}
 
       <div
-        className={`fixed top-24 right-0 h-60 w-44 bg-emerald-950 border border-emerald-800 z-50 transform transition-transform duration-300 ease-in-out md:hidden ${
+        className={`fixed top-24 right-0 h-60 w-44 bg-emerald-950 rounded-l-2xl border border-emerald-800 z-50 transform transition-transform duration-300 ease-in-out md:hidden ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
