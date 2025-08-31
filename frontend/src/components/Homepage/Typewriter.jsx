@@ -14,7 +14,7 @@ class TypeWriter extends React.PureComponent {
   componentDidMount() {
     this.unmounted = false;
     this.loopNum = 0;
-    this.period = 2000;
+    this.period = 3000;
     this.isDeleting = false;
     this.tick();
   }
