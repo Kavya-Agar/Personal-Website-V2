@@ -56,7 +56,7 @@ export const ProjectList = () => {
                 </div>
               </h3>
               <a
-                href="https://github.com/Kavya-Agar/Stock-Sentiment-Dashboard"
+                href="https://github.com/Kavya-Agar/financial-ner-project"
                 className="mt-6 text-blue-500"
                 target="_blank"
                 rel="noopener noreferrer"
