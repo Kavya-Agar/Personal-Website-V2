@@ -8,6 +8,7 @@ export const ProjectList = () => {
           </div>
 
           <div className="grid grid-cols-1 gap-6 lato-regular">
+            {/* Financial NER Analyser Project */}
             <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full border border-emerald-800">
               <h3 className="text-lg text-amber-400 sm:text-xl mb-2">
                 Financial NER Analyser
@@ -65,6 +66,7 @@ export const ProjectList = () => {
               </a>
             </div>
 
+            {/* Stock Sentiment Dashboard Project */}
             <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full border border-emerald-800">
               <h3 className="text-lg text-amber-400 sm:text-xl mb-2">
                 Stock Sentiment Dashboard
@@ -115,7 +117,6 @@ export const ProjectList = () => {
                   </span>
                 </div>
               </h3>
-
               <a
                 href="https://github.com/Kavya-Agar/Stock-Sentiment-Dashboard"
                 className="mt-6 text-blue-500"
@@ -126,6 +127,7 @@ export const ProjectList = () => {
               </a>
             </div>
 
+            {/* FIN-ance Project */}
             <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full border border-emerald-800">
               <h3 className="text-lg text-amber-400 sm:text-xl mb-2">
                 FIN-ance
@@ -180,7 +182,6 @@ export const ProjectList = () => {
                   </span>
                 </div>
               </h3>
-
               <a
                 href="https://github.com/Kavya-Agar/fin-ance"
                 className="mt-6 text-blue-500"
@@ -190,119 +191,120 @@ export const ProjectList = () => {
                 View Project
               </a>
             </div>
-          </div>
 
-          <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full border border-emerald-800">
-            <h3 className="text-lg text-amber-400 sm:text-xl mb-2">
-              Personal Website V2
-            </h3>
-            <p className="text-amber-100 mb-2 text-sm sm:text-base">
-              <ul className="list-disc list-inside">
-                <li>
-                  The second rendition of my portfolio website to showcase my
-                  projects and skills
-                </li>
-                <li>
-                  UI was a major focus for this version to create a visually
-                  appealing and responsive experience
-                </li>
-                <li>
-                  Emphasis was placed on clean design, accessibility, and smooth
-                  navigation across devices
-                </li>
-              </ul>
-            </p>
-            <h3 className="text-amber-100 text-sm sm:text-base">
-              Technologies Used:
-              <div className="space-x-3 mt-1">
-                <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">
-                  React
-                </span>
-                <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">
-                  TailwindCSS
-                </span>
-              </div>
-            </h3>
+            {/* Personal Website V2 Project */}
+            <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full border border-emerald-800">
+              <h3 className="text-lg text-amber-400 sm:text-xl mb-2">
+                Personal Website V2
+              </h3>
+              <p className="text-amber-100 mb-2 text-sm sm:text-base">
+                <ul className="list-disc list-inside">
+                  <li>
+                    The second rendition of my portfolio website to showcase my
+                    projects and skills
+                  </li>
+                  <li>
+                    UI was a major focus for this version to create a visually
+                    appealing and responsive experience
+                  </li>
+                  <li>
+                    Emphasis was placed on clean design, accessibility, and smooth
+                    navigation across devices
+                  </li>
+                </ul>
+              </p>
+              <h3 className="text-amber-100 text-sm sm:text-base">
+                Technologies Used:
+                <div className="space-x-3 mt-1">
+                  <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">
+                    React
+                  </span>
+                  <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">
+                    TailwindCSS
+                  </span>
+                </div>
+              </h3>
+              <div className="mt-6 text-blue-500">This website</div>
+            </div>
 
-            <div className="mt-6 text-blue-500">This website</div>
-          </div>
+            {/* Heart R8 Project */}
+            <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full border border-emerald-800">
+              <h3 className="text-lg text-amber-400 sm:text-xl mb-2">Heart R8</h3>
+              <p className="text-amber-100 mb-2 text-sm sm:text-base">
+                <ul className="list-disc list-inside">
+                  <li>
+                    A low-cost wristband for older adults that detects abnormal
+                    heart rhythms and alerts them in case of arrythmias
+                  </li>
+                  <li>
+                    The wristband is designed to be simple and easy to use, easing
+                    the process of managing cardiac health
+                  </li>
+                </ul>
+              </p>
+              <h3 className="text-amber-100 text-sm sm:text-base">
+                Technologies Used:
+                <div className="space-x-3 mt-1">
+                  <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">
+                    Arduino
+                  </span>
+                  <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">
+                    C++
+                  </span>
+                </div>
+              </h3>
+              <a
+                href="https://devpost.com/software/heart-rate-pulse-sensor"
+                className="mt-6 text-blue-500"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project
+              </a>
+            </div>
 
-          <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full border border-emerald-800">
-            <h3 className="text-lg text-amber-400 sm:text-xl mb-2">Heart R8</h3>
-            <p className="text-amber-100 mb-2 text-sm sm:text-base">
-              <ul className="list-disc list-inside">
-                <li>
-                  A low-cost wristband for older adults that detects abnormal
-                  heart rhythms and alerts them in case of arrythmias
-                </li>
-                <li>
-                  The wristband is designed to be simple and easy to use, easing
-                  the process of managing cardiac health
-                </li>
-              </ul>
-            </p>
-            <h3 className="text-amber-100 text-sm sm:text-base">
-              Technologies Used:
-              <div className="space-x-3 mt-1">
-                <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">
-                  Arduino
-                </span>
-                <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">
-                  C++
-                </span>
-              </div>
-            </h3>
-
-            <a
-              href="https://devpost.com/software/heart-rate-pulse-sensor"
-              className="mt-6 text-blue-500"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Project
-            </a>
-          </div>
-
-          <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full border border-emerald-800">
-            <h3 className="text-lg text-amber-400 sm:text-xl mb-2">
-              Personal Website V1
-            </h3>
-            <p className="text-amber-100 mb-2 text-sm sm:text-base">
-              <ul className="list-disc list-inside">
-                <li>
-                  The first rendition of my personal website to showcase my
-                  projects and skills so far as well as serve as a learning
-                  opportunity
-                </li>
-                <li>
-                  The website was designed to be simple and easy to navigate, as
-                  well as responsive to different screen sizes
-                </li>
-              </ul>
-            </p>
-            <h3 className="text-amber-100 text-sm sm:text-base">
-              Technologies Used:
-              <div className="space-x-3 mt-1">
-                <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">
-                  React
-                </span>
-                <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">
-                  Django
-                </span>
-                <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">
-                  Leaflet.js
-                </span>
-              </div>
-            </h3>
-
-            <a
-              href="https://github.com/Kavya-Agar/Personal-Website"
-              className="mt-6 text-blue-500"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Project
-            </a>
+            {/* Personal Website V1 Project */}
+            <div className="bg-emerald-950 shadow-lg rounded-3xl p-4 sm:p-6 flex flex-col h-full border border-emerald-800">
+              <h3 className="text-lg text-amber-400 sm:text-xl mb-2">
+                Personal Website V1
+              </h3>
+              <p className="text-amber-100 mb-2 text-sm sm:text-base">
+                <ul className="list-disc list-inside">
+                  <li>
+                    The first rendition of my personal website to showcase my
+                    projects and skills so far as well as serve as a learning
+                    opportunity
+                  </li>
+                  <li>
+                    The website was designed to be simple and easy to navigate, as
+                    well as responsive to different screen sizes
+                  </li>
+                </ul>
+              </p>
+              <h3 className="text-amber-100 text-sm sm:text-base">
+                Technologies Used:
+                <div className="space-x-3 mt-1">
+                  <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">
+                    React
+                  </span>
+                  <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">
+                    Django
+                  </span>
+                  <span className="px-2.5 py-0.5 bg-gradient-to-r from-fuchsia-900 to-cyan-700 text-amber-100 rounded-sm text-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1 inline-block">
+                    Leaflet.js
+                  </span>
+                </div>
+              </h3>
+              <a
+                href="https://github.com/Kavya-Agar/Personal-Website"
+                className="mt-6 text-blue-500"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Project
+              </a>
+            </div>
+            
           </div>
         </div>
       </div>
